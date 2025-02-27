@@ -12,6 +12,6 @@
     "dayTheme":"dark",
     "nightTheme":"dark-blue",
     "urlMode":"issue",
-    "indexStyle": "<link href='https://godpan.com/assets/pl-blog.css' rel='stylesheet' />",
+    "indexStyle": "<link href='https://godpan.com/assets/pl-blog.css' rel='stylesheet'/>",
     "showPostSource":0
 }
