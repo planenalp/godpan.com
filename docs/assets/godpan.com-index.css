@@ -1,9 +1,14 @@
 
+/* 背景图 */
+html {    
+    background: url('https://godpan.com/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 /* header布局 */
 #header {
-    height: 120px;
+    height: 250px;
     position: relative; /* 父元素 #header 设置定位 */
-    background-color: #002FA7;
 }
 
 #header h1 {
@@ -15,14 +20,16 @@
     align-items: center;
 }
 
-/* avatar关闭 */
+/* avatar尺寸 */
 .avatar {
-    display: none;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px; /* 用百分比会崩 */
 }
 
 #header h1 a {
     margin-left: unset; /* 重置原参数8px为0 */
-    margin-top: 20px; /* 用百分比会崩 */
+    margin-top: 10px; /* 用百分比会崩 */
     font-family: 
         "PingFang SC",     /* 苹方（macOS/iOS） */
         "Microsoft YaHei", /* 微软雅黑（Windows） */
@@ -36,8 +43,9 @@
 
 .title-right {
     margin: unset; /* 重置原参数 */
-    margin-top: 70px; /* 用百分比会崩 */
+    margin-top: 200px; /* 用百分比会崩 */
     margin-left: 50%;
     transform: translateX(-50%);
     position: absolute;
 }
+
