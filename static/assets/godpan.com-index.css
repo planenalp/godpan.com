@@ -52,15 +52,8 @@ html {
 
 /* 主体布局 */
 body {
-    min-width: 200px;
-    max-width: 885px;
-    margin: 30px auto;   /*设置所有外边距离 */
-    font-size: 16px;
-    font-family: sans-serif;
-    line-height: 1.25;
     background: rgba(255, 255, 255, 0.5); /* 白色背景，透明度50% */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
-    overflow: auto;
 }
 
 /* 主页博客列表透明边框 */
@@ -72,7 +65,7 @@ body {
 /* 鼠标放到博客标题后会高亮 */
 .SideNav-item:hover {
     background-color: #81D8D0; /* 高亮颜色 */
-    transform: scale(1.04);
+    transform: scale(1.05);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
