@@ -8,7 +8,7 @@
     "faviconUrl":"https://godpan.com/favicon.svg",
     "singlePage":["link","about"],
     "i18n":"EN",
-    "themeMode":"manual",
+    "themeMode":"fix",
     "dayTheme":"dark",
     "nightTheme":"dark-blue",
     "urlMode":"issue",
