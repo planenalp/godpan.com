@@ -13,6 +13,6 @@
     "nightTheme":"dark-blue",
     "urlMode":"issue",
     "script":"<script src='https://godpan.com/assets/GmeekTOC.js'></script><script src='https://godpan.com/assets/lightbox.js'></script><script src='https://godpan.com/assets/pagination.js'></script>",
-    "indexStyle": "<link href='https://godpan.com/assets/pl-blog.css' rel='stylesheet'/>",
+    "indexStyle": "<link href='https://godpan.com/assets/godpan.com.css' rel='stylesheet'/>",
     "showPostSource":0
 }
