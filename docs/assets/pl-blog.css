@@ -3,7 +3,7 @@
 #header {
     height: 250px;
     position: relative; /* 父元素 #header 设置定位 */
-    background-color: #002FA7;
+    background-color: #002FA780; /* #002FA7+50%透明度 */
 }
 
 #header h1 {
