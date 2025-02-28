@@ -1,4 +1,10 @@
 
+/* 背景图 */
+html {    
+    background: url('https://godpan.com/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 /* header布局 */
 #header {
     height: 120px;
