@@ -63,15 +63,15 @@ body {
     overflow: auto;
 }
 
-/* 主页博客列表圆角边框 */
+/* 主页博客列表透明边框 */
 .SideNav {
-    background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
+    background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
     min-width: unset;
 }
 
 /* 鼠标放到博客标题后会高亮 */
 .SideNav-item:hover {
-    background-color: #002fa7; /* 高亮颜色 */
+    background-color: #002fa780; /* 高亮颜色50%透明度 */
     transform: scale(1.04);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
