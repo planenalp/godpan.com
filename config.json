@@ -12,6 +12,7 @@
     "dayTheme":"dark",
     "nightTheme":"dark-blue",
     "urlMode":"issue",
+    "style": "<link href='https://godpan.com/assets/godpan.com-post.css' rel='stylesheet' />",
     "script":"<script src='https://godpan.com/assets/GmeekTOC.js'></script><script src='https://godpan.com/assets/lightbox.js'></script><script src='https://godpan.com/assets/pagination.js'></script>",
     "indexStyle": "<link href='https://godpan.com/assets/godpan.com-index.css' rel='stylesheet'/>",
     "showPostSource":0
