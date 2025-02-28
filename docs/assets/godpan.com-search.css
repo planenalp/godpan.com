@@ -1,0 +1,17 @@
+
+/* 背景图 */
+html {    
+    background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* 主体布局 */
+body {
+    background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+}
+
+/* 搜索布局 */
+.subnav-search {
+    width: 230px;
+}
