@@ -8,12 +8,17 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('应用主页主题');
         let style = document.createElement("style");
         style.innerHTML = `
-        .blogTitle {
-            display: unset;
+
+        /* 背景图 */
+        html {    
+                background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
+                background-size: cover;
         }
 
+        /* header布局 */
         #header {
-            height: 300px;
+            height: 250px;
+            position: relative; /* 父元素 #header 设置定位 */
         }
 
         #header h1 {
@@ -25,51 +30,56 @@ document.addEventListener('DOMContentLoaded', function() {
             align-items: center;
         }
 
+        /* avatar尺寸 */
         .avatar {
-            width: 200px;
-            height: 200px;
+            width: 120px;
+            height: 120px;
+            margin-top: 20px; /* 用百分比会崩 */
         }
 
         #header h1 a {
-            margin-top: 30px;
-            font-family: fantasy;
-            margin-left: unset;
+            margin-left: unset; /* 重置原参数8px为0 */
+            margin-top: 10px; /* 用百分比会崩 */
+            font-family:
+                "PingFang SC",     /* 苹方（macOS/iOS） */
+                "Microsoft YaHei", /* 微软雅黑（Windows） */
+                "Noto Sans SC",    /* 思源黑体（Linux/Android） */
+                sans-serif;        /* 最终回退到无衬线字体 */
         }
 
-        html {    
-            background: url('https://blog.freeblock.cn/background.webp') no-repeat center center fixed;
-            background-size: cover;
+        .blogTitle {
+            display: unset; /* 重置属性取消默认屏幕过窄自动隐藏标题 */
+        }
+
+        /* 自定义按钮 */
+        .title-right {
+            margin: unset; /* 重置原参数 */
+            margin-top: 200px; /* 用百分比会崩 */
+            margin-left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
         }
 
         /* 主体布局 */
         body {
-            min-width: 200px;
-            max-width: 885px;
-            margin: 30px auto;   /*设置所有外边距离 */
-            font-size: 16px;
-            font-family: sans-serif;
-            line-height: 1.25;
-            background: rgba(237, 239, 233, 0.84); 
-            border-radius: 10px; /* 圆角边框 */
+            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度50% */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
-            overflow: auto;
         }
 
-        /* 主页博客列表圆角边框 */
+        /* 主页博客列表透明边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
-            border-radius: 10px; /* 圆角边框 */
+            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
             min-width: unset;
         }
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #c3e4e3;
-            border-radius: 10px;
-            transform: scale(1.04);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            background-color: #DCDCDC; /* 高亮颜色 */
+            transform: scale(1.05);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
 
+        /* 弹起动画时长 */
         .SideNav-item {
             transition: 0.1s;
         }
@@ -79,22 +89,8 @@ document.addEventListener('DOMContentLoaded', function() {
             border-color: rebeccapurple;
         }
 
-        /* 赞助商信息样式 */
-        .sponsor-info {
-            text-align: center;
-            margin-top: 20px;
-            font-size: small;
-            color: #666;
-        }
         `;
         document.head.appendChild(style);
-
-        // 添加赞助商信息到页脚
-        let footer = document.getElementById('footer');
-        let sponsorInfo = document.createElement('div');
-        sponsorInfo.className = 'sponsor-info';
-        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://gcore.jsdelivr.net/gh/YukiNoUta/cdn-static@main/blog/svg/upyun.svg" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
-        footer.insertBefore(sponsorInfo, footer.firstChild);
     }
 
 
@@ -106,74 +102,20 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
 
+        /* 背景图 */
         html {    
-            background: url('https://blog.freeblock.cn/background.webp') no-repeat center center fixed;
+            background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
             background-size: cover;
         }
 
         /* 主体布局 */
         body {
-            min-width: 200px;
-            max-width: 885px;
-            margin: 30px auto;   /*设置所有外边距离 */
-            font-size: 16px;
-            font-family: sans-serif;
-            line-height: 1.25;
-            background: rgba(237, 239, 233, 0.84); 
-            border-radius: 10px; /* 圆角边框 */
+            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
-            overflow: auto;
         }
 
-        /* markdown内容 */
-        /* 图片圆角 */
-        .markdown-body img {
-            border-radius: 8px;
-            border: 1px solid rgba(255, 255, 255, 0.78); 
-        }
-        
-        /* notice、caution、warning等提示信息的圆角 */
-        .markdown-alert {
-            border-radius: 8px;
-        }
-        
-        /* 代码块 */
-        .markdown-body .highlight pre, .markdown-body pre {
-            color: rgb(0, 0, 0);          /* 代码块内代码颜色 */
-            background-color: rgba(243, 244, 243, 0.967);       /* 代码块内框颜色 */
-            box-shadow: 0 10px 30px 0 rgba(222, 217, 217, 0.4);
-            padding-top: 20px; 
-            border-radius: 8px;
-        }
-
-        /* 行内代码 */
-        .markdown-body code, .markdown-body tt {
-            background-color: #c9daf8;
-        }
-        
-        /* 标题橙色包裹 */
-        .markdown-body h1{
-            display: inline-block;
-            font-size: 1.3rem;
-            font-weight: bold;
-            background: rgb(239, 112, 96);
-            color: #ffffff;
-            padding: 3px 10px 1px;
-            border-top-right-radius: 8px;
-            border-top-left-radius: 8px;
-            border-bottom-left-radius: 8px;
-            border-bottom-right-radius: 8px;
-            margin-right: 2px;
-            margin-top: 1.8rem; 
-        }   
         `;
         document.head.appendChild(style);
-        // 添加赞助商信息到页脚
-        let footer = document.getElementById('footer');
-        let sponsorInfo = document.createElement('div');
-        sponsorInfo.className = 'sponsor-info';
-        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://gcore.jsdelivr.net/gh/YukiNoUta/cdn-static@main/blog/svg/upyun.svg" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
-        footer.insertBefore(sponsorInfo, footer.firstChild);
     } 
 
 
@@ -184,76 +126,41 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
         
+        /* 背景图 */
         html {    
-            background: url('https://blog.freeblock.cn/background.webp') no-repeat center center fixed;
+            background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
             background-size: cover;
         }
 
         /* 主体布局 */
         body {
-            min-width: 200px;
-            max-width: 885px;
-            margin: 30px auto;   /*设置所有外边距离 */
-            font-size: 16px;
-            font-family: sans-serif;
-            line-height: 1.25;
-            background: rgba(237, 239, 233, 0.84); 
-            border-radius: 10px; /* 圆角边框 */
+            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
-            overflow: auto;
         }
-        
+
+        /* 列表透明边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
-            border-radius: 10px; /* 圆角边框 */
+            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
             min-width: unset;
         }
-        
+
+        /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #c3e4e3;
-            border-radius: 10px;
-            transform: scale(1.02);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            background-color: #DCDCDC; /* 高亮颜色 */
+            transform: scale(1.05);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
-        
+
+        /* 弹起动画时长 */
         .SideNav-item {
             transition: 0.1s;
         }
         
-        .subnav-search-input {
-            border-radius: 2em;
-            float: unset !important;
-        }
-        
-        .subnav-search-icon {
-            top: 9px;
-        }
-        
-        button.btn.float-left {
-            display: none;
-        }
-        
+        /* 搜索布局 */
         .subnav-search {
-            width: unset; 
-            height: 36px;
+            width: 230px; 
         }
         `;
         document.head.appendChild(style);
-        // 添加赞助商信息到页脚
-        let footer = document.getElementById('footer');
-        let sponsorInfo = document.createElement('div');
-        sponsorInfo.className = 'sponsor-info';
-        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://gcore.jsdelivr.net/gh/YukiNoUta/cdn-static@main/blog/svg/upyun.svg" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
-        footer.insertBefore(sponsorInfo, footer.firstChild);
-    
-        // 搜索框回车触发
-        let input = document.getElementsByClassName("form-control subnav-search-input float-left")[0];
-        let button = document.getElementsByClassName("btn float-left")[0];
-        input.addEventListener("keyup", function(event) {
-            event.preventDefault();
-            if (event.keyCode === 13) {
-                button.click();
-            }
-        });
     }
 })
