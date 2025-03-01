@@ -12,8 +12,8 @@
     "dayTheme":"light",
     "nightTheme":"github-light",
     "urlMode":"issue",
-    "style": "<link href='https://godpan.com/assets/godpan.com-post.css' rel='stylesheet' /><link href='https://godpan.com/assets/godpan.com-search.css' rel='stylesheet' />",
-    "script":"<script src='https://godpan.com/assets/GmeekTOC.js'></script><script src='https://godpan.com/assets/lightbox.js'></script><script src='https://godpan.com/assets/pagination.js'></script>",
-    "indexStyle": "<link href='https://godpan.com/assets/godpan.com-index.css' rel='stylesheet'/>",
+    "script":"<script src='https://godpan.com/assets/GmeekTOC.js'></script><script src='https://godpan.com/assets/lightbox.js'></script>",
+    "allHead":"<script src='godpan.com/assets/GodPanTheme.js'></script>",
+    "indexScript":"<script src='https://godpan.com/assets/pagination.js'></script>",
     "showPostSource":0
 }
