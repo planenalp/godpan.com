@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GodPan</title><link>https://godpan.com</link><description>装神弄鬼</description><copyright>GodPan</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://godpan.com/favicon.svg</url><title>avatar</title><link>https://godpan.com</link></image><lastBuildDate>Sat, 01 Mar 2025 02:54:59 +0000</lastBuildDate><managingEditor>GodPan</managingEditor><ttl>60</ttl><webMaster>GodPan</webMaster><item><title>Hello, World!</title><link>https://godpan.com/post/3.html</link><description>&lt;!-- ##{'timestamp':1678353120}## --&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GodPan</title><link>https://godpan.com</link><description>装神弄鬼</description><copyright>GodPan</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://godpan.com/favicon.svg</url><title>avatar</title><link>https://godpan.com</link></image><lastBuildDate>Sat, 01 Mar 2025 03:00:50 +0000</lastBuildDate><managingEditor>GodPan</managingEditor><ttl>60</ttl><webMaster>GodPan</webMaster><item><title>站..长？不，明明只是个复古的QQ空间！</title><link>https://godpan.com/post/4.html</link><description>&lt;!-- ##{'timestamp':1678726800}## --&gt;
+
+因为突然感觉不写点什么好像有点说不过去，所以就有了这篇擅长的流水账
+
+心血来潮捣鼓了一天一夜，终于把这个网站站给建好，开心~庆祝一下~yay！
+
+说实话我以为过了两三天，但是一看时间原来才1天，甚至不到一天。。有点被吓到，不得不说之前折腾过一阵子NAS的半桶水知识确实有帮助
+
+虽然只是个极简风的博客站，但这本来就是我想要的效果，目前来说很知足了
+
+之后打算把完整过程做个图文+视频教程，希望会有人看吧？超过10个就算成功，哈哈！
+
+![Image](https://github.</description><guid isPermaLink="true">https://godpan.com/post/4.html</guid><pubDate>Mon, 13 Mar 2023 17:00:00 +0000</pubDate></item><item><title>Hello, World!</title><link>https://godpan.com/post/3.html</link><description>&lt;!-- ##{'timestamp':1678353120}## --&gt;
 
 Hi!
 相信很多人都有过这样的经历，在一个曾经折腾过的问题上，过了一段时间需要重新面对的时候，之前做过的研究又要全部重来
