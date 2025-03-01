@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #008080; /* 高亮颜色 */
+            background-color: #81D8D0; /* 高亮颜色 */
             transform: scale(1.05);
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
@@ -90,9 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 右上角按钮触碰颜色 */
         div.title-right .btn:hover {
-            width: auto;
-            border-radius: 2em !important;
-            background-color: #008080;
+            background-color: #81D8D0;
         }
 
         `;
@@ -122,9 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 右上角按钮触碰颜色 */
         div.title-right .btn:hover {
-            width: auto;
-            border-radius: 2em !important;
-            background-color: #008080;
+            background-color: #81D8D0;
         }
 
         `;
@@ -159,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #008080; /* 高亮颜色 */
+            background-color: #81D8D0; /* 高亮颜色 */
             transform: scale(1.05);
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
@@ -176,9 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 右上角按钮触碰颜色 */
         div.title-right .btn:hover {
-            width: auto;
-            border-radius: 2em !important;
-            background-color: #008080;
+            background-color: #81D8D0;
         }
         
         `;
