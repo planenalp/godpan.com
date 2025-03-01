@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* header布局 */
         #header {
-            height: 250px;
+            height: 230px;
             position: relative; /* 父元素 #header 设置定位 */
         }
 
@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .avatar {
             width: 120px;
             height: 120px;
-            margin-top: 20px; /* 用百分比会崩 */
         }
 
         #header h1 a {
@@ -54,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 200px; /* 用百分比会崩 */
+            margin-top: 180px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
