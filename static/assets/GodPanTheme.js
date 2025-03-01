@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #FFFFFF; /* 高亮颜色 */
+            background-color: #008080; /* 高亮颜色 */
             transform: scale(1.05);
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
@@ -86,6 +86,13 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 分页条 */
         .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus {
             border-color: rebeccapurple;
+        }
+
+        /* 右上角按钮触碰颜色 */
+        div.title-right .btn:hover {
+            width: auto;
+            border-radius: 2em !important;
+            background-color: #008080;
         }
 
         `;
@@ -111,6 +118,13 @@ document.addEventListener('DOMContentLoaded', function() {
         body {
             background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+        }
+
+        /* 右上角按钮触碰颜色 */
+        div.title-right .btn:hover {
+            width: auto;
+            border-radius: 2em !important;
+            background-color: #008080;
         }
 
         `;
@@ -145,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #FFFFFF; /* 高亮颜色 */
+            background-color: #008080; /* 高亮颜色 */
             transform: scale(1.05);
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
@@ -159,6 +173,14 @@ document.addEventListener('DOMContentLoaded', function() {
         .subnav-search {
             width: 230px; 
         }
+
+        /* 右上角按钮触碰颜色 */
+        div.title-right .btn:hover {
+            width: auto;
+            border-radius: 2em !important;
+            background-color: #008080;
+        }
+        
         `;
         document.head.appendChild(style);
     }
