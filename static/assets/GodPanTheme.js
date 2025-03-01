@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 主页博客列表透明边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度80% */
+            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
             min-width: unset;
         }
 
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 列表透明边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度80% */
+            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
             min-width: unset;
         }
 
