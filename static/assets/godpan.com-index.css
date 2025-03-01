@@ -64,7 +64,7 @@ body {
 
 /* 鼠标放到博客标题后会高亮 */
 .SideNav-item:hover {
-    background-color: #F5F5F5; /* 高亮颜色 */
+    background-color: #DCDCDC; /* 高亮颜色 */
     transform: scale(1.05);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
