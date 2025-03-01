@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GodPan</title><link>https://godpan.com</link><description>装神弄鬼</description><copyright>GodPan</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://godpan.com/favicon.svg</url><title>avatar</title><link>https://godpan.com</link></image><lastBuildDate>Thu, 27 Feb 2025 23:14:55 +0000</lastBuildDate><managingEditor>GodPan</managingEditor><ttl>60</ttl><webMaster>GodPan</webMaster><item><title>Hello, World!</title><link>https://godpan.com/post/3.html</link><description>~~.</description><guid isPermaLink="true">https://godpan.com/post/3.html</guid><pubDate>Thu, 27 Feb 2025 23:13:14 +0000</pubDate></item><item><title>About</title><link>https://godpan.com/about.html</link><description>用于显摆那些不断增加并随机循环的三分钟热度研究成果
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GodPan</title><link>https://godpan.com</link><description>装神弄鬼</description><copyright>GodPan</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://godpan.com/favicon.svg</url><title>avatar</title><link>https://godpan.com</link></image><lastBuildDate>Sat, 01 Mar 2025 02:54:59 +0000</lastBuildDate><managingEditor>GodPan</managingEditor><ttl>60</ttl><webMaster>GodPan</webMaster><item><title>Hello, World!</title><link>https://godpan.com/post/3.html</link><description>&lt;!-- ##{'timestamp':1678353120}## --&gt;
+
+Hi!
+相信很多人都有过这样的经历，在一个曾经折腾过的问题上，过了一段时间需要重新面对的时候，之前做过的研究又要全部重来
+
+以前我是习惯用记事本程序写下简单的步骤，现在发现做成视频文章的形式可能会更好
+这样既可以公开解决思路帮助有相同问题的人，又能有个渠道互相交流促进共同进步
+因为问题永远解决不完，所以这可能还是个取之不尽，用之不竭的选题方向
+
+之后没什么意外的话图文版会同步发在 godpan.</description><guid isPermaLink="true">https://godpan.com/post/3.html</guid><pubDate>Thu, 09 Mar 2023 09:12:00 +0000</pubDate></item><item><title>About</title><link>https://godpan.com/about.html</link><description>用于显摆那些不断增加并随机循环的三分钟热度研究成果
 
 仅靠自学，没有专业知识背景，被指民科都是抬举
 
