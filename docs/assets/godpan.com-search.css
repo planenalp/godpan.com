@@ -13,5 +13,6 @@ body {
 
 /* 搜索布局 */
 .subnav-search {
+    width: unset;
     width: 230px;
 }
