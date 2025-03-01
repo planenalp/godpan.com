@@ -13,7 +13,7 @@
     "nightTheme":"github-light",
     "urlMode":"issue",
     "script":"<script src='https://godpan.com/assets/GmeekTOC.js'></script><script src='https://godpan.com/assets/lightbox.js'></script>",
-    "allHead":"<script src='http://godpan.com/assets/GodPanTheme.js'></script>",
+    "allHead":"<script src='https://godpan.com/assets/GodPanTheme.js'></script>",
     "indexScript":"<script src='https://godpan.com/assets/pagination.js'></script>",
     "showPostSource":0
 }
