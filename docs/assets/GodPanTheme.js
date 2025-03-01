@@ -68,13 +68,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 主页博客列表透明边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
+            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度80% */
             min-width: unset;
         }
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #DCDCDC; /* 高亮颜色 */
+            background-color: #FFFFFF; /* 高亮颜色 */
             transform: scale(1.05);
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
@@ -140,13 +140,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 列表透明边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
+            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度80% */
             min-width: unset;
         }
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #DCDCDC; /* 高亮颜色 */
+            background-color: #FFFFFF; /* 高亮颜色 */
             transform: scale(1.05);
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
         }
