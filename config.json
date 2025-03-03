@@ -13,7 +13,7 @@
     "dayTheme":"light",
     "nightTheme":"github-light",
     "urlMode":"issue",
-    "script":"<script src='https://godpan.com/assets/GodPanArticleTOC.js'></script><script src='https://godpan.com/assets/lightbox.js'></script>",
+    "script":"<script src='https://godpan.com/assets/KleinBlueArticleTOC.js'></script><script src='https://godpan.com/assets/lightbox.js'></script>",
     "allHead":"<script src='https://godpan.com/assets/GodPanTheme.js'></script>",
     "showPostSource":0
 }
