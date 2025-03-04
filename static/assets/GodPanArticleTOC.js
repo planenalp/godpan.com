@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
             --toc-hover: #81D8D0CC;
             --toc-icon-bg: #FFFFFFB3;
             --toc-icon-color: #656d76b3;
-            --toc-icon-active-bg: #81D8D0B3
+            --toc-icon-active-bg: #81D8D0B3;
             --toc-icon-active-color: #FFFFFFB3;
         }
 
