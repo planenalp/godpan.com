@@ -156,13 +156,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         .toc-icon:hover {
             transform: scale(1.1);
+            color: var(--toc-icon-active-color);
+            background-color: var(--toc-icon-active-bg);
+            border-color: var(--toc-icon-active-color); /* 激活按钮边框颜色改为白色 */
         }
         .toc-icon:active {
             transform: scale(0.9);
         }
         .toc-icon.active {
-            background-color: var(--toc-icon-active-bg);
             color: var(--toc-icon-active-color);
+            background-color: var(--toc-icon-active-bg);
             border-color: var(--toc-icon-active-color); /* 激活按钮边框颜色改为白色 */
             transform: rotate(90deg);
         }
