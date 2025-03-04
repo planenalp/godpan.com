@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded", function() {
     createTOC();
     const css = `
        :root {
-            --toc-bg: rgba(255, 255, 255, 0.8);
+            --toc-bg: rgba(255, 255, 255, 0.7);
             --toc-border: #e1e4e8;
-            --toc-text: #000000;
+            --toc-text: #1F2328;
             --toc-hover: #81D8D0CC;
-            --toc-icon-bg: #FFFFFFCC;
-            --toc-icon-color: #81D8D0;
-            --toc-icon-active-bg: #81D8D0CC;
-            --toc-icon-active-color: #FFFFFFCC;
+            --toc-icon-bg: #FFFFFFB3;
+            --toc-icon-color: #656d76b3;
+            --toc-icon-active-bg: #81D8D0B3
+            --toc-icon-active-color: #FFFFFFCCB3;
         }
 
         .toc {
