@@ -93,6 +93,25 @@ document.addEventListener('DOMContentLoaded', function() {
             background-color: #81D8D0;
         }
 
+        /* 重新定义 max-width: 768px 参数下的值，原为 600px */
+        @media (max-width: 768px) {
+            body {
+                padding: 8px !important;
+            }
+            .blogTitle{
+                display:unset !important;
+                }
+            #buttonRSS{
+                display:unset !important;
+            }
+            .LabelTime{
+                display:unset !important;
+            }
+            .LabelName{
+                display:none !important;
+            }
+        }
+        
         `;
         document.head.appendChild(style);
     }
@@ -123,6 +142,16 @@ document.addEventListener('DOMContentLoaded', function() {
             background-color: #81D8D0;
         }
 
+        /* 重新定义 max-width: 768px 参数下的值，原为 600px */
+        @media (max-width: 768px) {
+            body {
+                padding: 8px !important;
+            }
+            .postTitle{
+                font-size:24px !important;
+            }
+        }
+        
         `;
         document.head.appendChild(style);
     } 
@@ -173,6 +202,23 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 右上角按钮触碰颜色 */
         div.title-right .btn:hover {
             background-color: #81D8D0;
+        }
+
+        /* 重新定义 max-width: 768px 参数下的值，原为 600px */
+        @media (max-width: 768px) {
+            body {
+                padding: 8px !important;
+            }
+            .tagTitle {
+                display: unset !important;
+                font-size: 14px !important;
+            }
+            .LabelTime{
+                display:unset !important;
+            }
+            .LabelName{
+                display:none !important;
+            }
         }
         
         `;
