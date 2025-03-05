@@ -98,6 +98,10 @@ document.addEventListener('DOMContentLoaded', function() {
             body {
                 padding: 8px !important;
             }
+            .avatar {
+                width:120px !important;
+                height:120px !important;
+            }
             .blogTitle{
                 display:unset !important;
                 }
