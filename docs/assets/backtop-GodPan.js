@@ -28,9 +28,9 @@
     }
     .back-to-top:hover {
       transform: scale(1.1);
-      color: #8b949eb3;
-      background-color: #002fa7b3;
-      border-color: #8b949eb3;
+      color: #FFFFFFB3;
+      background-color: #81D8D0B3;
+      border-color: #FFFFFFB3; /* 激活按钮边框颜色改为白色 */
     }
     .back-to-top:active {
       transform: scale(0.9); /* 按住时缩小 */
