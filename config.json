@@ -13,7 +13,7 @@
     "dayTheme":"light",
     "nightTheme":"github-light",
     "urlMode":"issue",
-    "script":"<script src='https://godpan.com/assets/GodPanArticleTOC.js'></script><script src='https://godpan.com/assets/view-image-load-GodPan.js'></script>",
-    "allHead":"<script src='https://godpan.com/assets/GodPanTheme.js'></script>",
+    "script":"<script src='https://godpan.com/assets/backtop-GodPan.js'></script><script src='https://godpan.com/assets/ArticleTOC-GodPan.js'></script><script src='https://godpan.com/assets/view-image-load-GodPan.js'></script>",
+    "allHead":"<script src='https://godpan.com/assets/Theme-GodPan.js'></script>",
     "showPostSource":0
 }
