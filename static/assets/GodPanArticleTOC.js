@@ -31,7 +31,11 @@ function createTOC() {
     });
 
     //返回顶部改为向上箭头
+    //禁用向上按钮的总共三段"toc-end"项目 1-3
+    /*
     tocElement.insertAdjacentHTML('beforeend', '<a class="toc-end" onclick="window.scrollTo({top:0,behavior: \'smooth\'});">ᐱ</a>');
+    */
+
     contentContainer.prepend(tocElement);
 }
 
@@ -92,8 +96,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         .toc {
             position: fixed;
-            bottom: 100px;
-            right: 20px;
+            bottom: 80px;
+            right: 60px;
             width: 250px;
             max-height: 70vh;
             background-color: var(--toc-bg);
@@ -171,6 +175,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         /* 结尾向上按钮参数 */
+        //禁用向上按钮的总共三段"toc-end"项目 2-3
+        /*
         .toc-end {
             /* font-weight: bold;  移除加粗 */
             text-align: center;
@@ -181,6 +187,7 @@ document.addEventListener("DOMContentLoaded", function() {
             border-radius: 8px;                       /* 可选：使按钮有圆角 */
             border: 1px solid var(--toc-border);      /* 可选：增加边框，使其更明显 */
         }
+        */
 
         /* 弹出菜单文字参数 */
         .active-toc {
@@ -224,6 +231,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(tocIcon);
 
     //自定义按钮颜色
+    //禁用向上按钮的总共三段"toc-end"项目 3-3
+    /*
     window.onscroll = function() {
         const backToTopButton = document.querySelector('.toc-end');
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -232,6 +241,7 @@ document.addEventListener("DOMContentLoaded", function() {
             backToTopButton.style="visibility: hidden;background-color: var(--toc-hover);"
         }
     };
+    */
 
     document.addEventListener('scroll', highlightTOC);
     
