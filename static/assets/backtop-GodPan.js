@@ -8,9 +8,9 @@
       right: 20px;
       cursor: pointer;
       font-size: 24px;
-      background-color: #21262db3;
-      color: rgba(240, 246, 252, 0.1);
-      border: 2px solid rgba(240, 246, 252, 0.1);
+      background-color: #FFFFFFB3;
+      color: #656d76b3;
+      border: 2px solid #656d76b3;
       border-radius: 50%;
       width: 40px;
       height: 40px;
