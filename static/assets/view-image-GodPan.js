@@ -74,16 +74,16 @@
                             align-items: center;
                             cursor: pointer;
                             border-radius: 50%;
-                            color: rgba(240, 246, 252, 0.1);
-                            background-color: #21262db3;
-                            border: 2px solid rgba(240, 246, 252, 0.1);
+                            color: #656d76b3;
+                            background-color: #FFFFFFB3;
+                            border: 2px solid #656d76b3;
                             transition: transform 0.1s ease, opacity 0.1s ease;
                         }
                         .view-image-btn:hover {
                             transform: scale(1.1);
-                            color: #8b949eb3;
-                            background-color: #002fa7b3;
-                            border-color: #8b949eb3;
+                            color: #FFFFFFB3;
+                            background-color: #81D8D0B3;
+                            border-color: #FFFFFFB3; /* 激活按钮边框颜色改为白色 */
                         }
                         .view-image-btn:active {
                             transform: scale(0.9); /* 按住时缩小 */
@@ -186,8 +186,8 @@
                             padding: 5px;
                             border-radius: 6px;
                             /* background: rgba(0, 0, 0, 0.1); */
-                            background-color: #21262dcc;
-                            border: 1px solid rgba(240, 246, 252, 0.1);
+                            background-color: rgba(255, 255, 255, 0.8);
+                            border: 1px solid #e1e4e8;
                             margin-bottom: constant(safe-area-inset-bottom);
                             margin-bottom: env(safe-area-inset-bottom);
                             z-index: 1;
