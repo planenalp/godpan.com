@@ -8,9 +8,9 @@
       right: 20px;
       cursor: pointer;
       font-size: 24px;
-      background-color: #21262db3;
-      color: rgba(240, 246, 252, 0.1);
-      border: 2px solid rgba(240, 246, 252, 0.1);
+      background-color: #FFFFFFB3;
+      color: #656d76b3;
+      border: 2px solid #656d76b3;
       border-radius: 50%;
       width: 40px;
       height: 40px;
@@ -19,7 +19,7 @@
       justify-content: center;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12);
       z-index: 10000;
-      transition: all 0.1s ease;
+      transition: transform 0.1s ease, opacity 0.1s ease;
       user-select: none;
       -webkit-tap-highlight-color: transparent;
       outline: none;
