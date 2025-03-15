@@ -41,16 +41,6 @@
         --img-icon-active-bg: #81D8D0B3;
         --img-icon-active-color: #FFFFFFB3;
     }
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --img-bg: #21262dcc;
-            --img-border: rgba(240, 246, 252, 0.1);
-            --img-icon-bg: #21262db3;
-            --img-icon-color: rgba(240, 246, 252, 0.1);
-            --img-icon-active-bg: #002fa7b3;
-            --img-icon-active-color: #8b949eb3;
-        }
-    }
     .view-image {
         position: fixed;
         inset: 0;
