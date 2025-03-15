@@ -60,18 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
             --toc-icon-active-bg: #81D8D0B3;
             --toc-icon-active-color: #FFFFFFB3;
         }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --toc-bg: #21262dcc;
-                --toc-border: rgba(240, 246, 252, 0.1);
-                --toc-text: #c9d1d9;
-                --toc-hover: #002fa7cc;
-                --toc-icon-bg: #21262db3;
-                --toc-icon-color: rgba(240, 246, 252, 0.1);
-                --toc-icon-active-bg: #002fa7b3;
-                --toc-icon-active-color: #8b949eb3;
-            }
-        }
         .toc {
             position: fixed;
             bottom: 150px;
