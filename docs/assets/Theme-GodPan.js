@@ -40,10 +40,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* avatar尺寸 */
         .avatar {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
+            transition: 0.1s;
+            object-fit: unset;
+            background-color: transparent;
+            border-radius: unset !important; /* 强制清除圆形框设置 */
+            box-shadow: none;
+        }
+        
+        .avatar:hover {
+            transform: scale(1.1) !important;
         }
 
+        .avatar:active {
+            transform: scale(0.9) !important;
+        }
+        
         #header h1 a {
             margin-left: unset; /* 重置原参数8px为0 */
             margin-top: 10px; /* 用百分比会崩 */
