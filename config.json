@@ -17,5 +17,6 @@
     "urlMode":"issue",
     "script":"<script src='https://godpan.com/assets/AriticleTocTopBot-GodPan.js'></script><script src='https://godpan.com/assets/view-image-GodPan.js'></script>",
     "allHead":"<script src='https://godpan.com/assets/Theme-GodPan.js'></script>",
+    "indexScript":"<script src='https://godpan.com/assets/NumPagination-GodPan.js'></script>",
     "showPostSource":0
 }
