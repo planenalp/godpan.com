@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* avatar尺寸 */
         .avatar {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             transition: 0.1s;
             object-fit: unset;
             background-color: transparent;
