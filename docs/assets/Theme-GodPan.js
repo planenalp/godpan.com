@@ -15,10 +15,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 background-size: cover;
         }
 
+        /* 主体布局 */
+        body {
+            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度50% */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+        }
+
         /* header布局 */
         #header {
-            height: 230px;
+            height: 190px;
             position: relative; /* 父元素 #header 设置定位 */
+            border-bottom: unset;
+            margin-bottom: unset;
         }
 
         #header h1 {
@@ -53,16 +61,17 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 180px; /* 用百分比会崩 */
+            margin-top: 215px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
         }
 
-        /* 主体布局 */
-        body {
-            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度50% */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+        /* 副标题居中+移位 */
+        #content > div {
+            margin-bottom: unset !important;
+            text-align: center;  /* 子元素（副标题）水平居中 */
+            height: 75px;
         }
 
         /* 主页博客列表透明边框 */
