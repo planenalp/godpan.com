@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 背景图 */
         html {    
-                background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
-                background-size: cover;
+            background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
+            background-size: cover;
         }
 
         /* 主体布局 */
