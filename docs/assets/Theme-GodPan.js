@@ -12,6 +12,26 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
 
+        /* 默认亮主题配色 */
+        :root {
+            --body-bgColor: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
+            --SideNav-bgColor: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
+            --SideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 */
+            --box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+            --btn-invisible-hover-bgColor: #81d8d0; /* 原右上角按钮悬停颜色 */
+        }
+        /* 暗主题配色 */
+        [data-color-mode=light][data-light-theme=dark],
+        [data-color-mode=light][data-light-theme=dark]::selection,
+        [data-color-mode=dark][data-dark-theme=dark],
+        [data-color-mode=dark][data-dark-theme=dark]::selection {
+            --body-bgColor: #21262db3; /* 黑色背景，透明度70% */
+            --SideNav-bgColor: #21262dcc; /* 白色背景，透明度80% */
+            --SideNav-hover-bgColor: #81D8D0B3; /* 高亮颜色 */
+            --box-shadow: 0 0 transparent; /* 添加阴影 */
+            --btn-invisible-hover-bgColor: #81D8D0; /* 原右上角按钮悬停颜色 */
+        }
+
         /* 背景图 */
         html {    
             background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
@@ -20,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 主体布局 */
         body {
-            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度50% */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+            background: var(--body-bgColor);
+            box-shadow: var(--box-shadow);
         }
 
         /* header布局 */
@@ -93,15 +113,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 主页博客列表透明边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
+            background: var(--SideNav-bgColor);
             min-width: unset;
         }
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: #81D8D0B3; /* 高亮颜色 */
+            background-color: var(--SideNav-hover-bgColor);
             transform: scale(1.05);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
+            box-shadow: var(--box-shadow);
         }
 
         /* 弹起动画时长 */
@@ -114,9 +134,13 @@ document.addEventListener('DOMContentLoaded', function() {
             border-color: rebeccapurple;
         }
 
-        /* 右上角按钮触碰颜色 */
+        /* 右上角按钮触碰颜色
         div.title-right .btn:hover {
             background-color: #81D8D0;
+        }
+         */
+        .btn-invisible:hover {
+            background-color: var(--btn-invisible-hover-bgColor);
         }
 
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
