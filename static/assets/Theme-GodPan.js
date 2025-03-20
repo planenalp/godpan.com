@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
             transition: 0.1s;
         }
 
-        /* 右上角按钮触碰颜色
+        /* 右上角按钮触碰颜色 */
         .btn-invisible:hover {
             background-color: var(--btnSideNav-hover-bgColor);
         }
