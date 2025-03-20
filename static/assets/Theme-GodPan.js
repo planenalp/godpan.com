@@ -114,13 +114,13 @@ document.addEventListener('DOMContentLoaded', function() {
             height: 75px;
         }
 
-        /* 主页博客列表透明边框 */
+        /* 主页文章列表 */
         .SideNav {
             background: var(--SideNav-bgColor);
             min-width: unset;
         }
 
-        /* 鼠标放到博客标题后会高亮 */
+        /* 主页文章列表悬停高亮 */
         .SideNav-item:hover {
             background-color: var(--btnSideNav-hover-bgColor);
             transform: scale(1.05);
