@@ -78,7 +78,7 @@ function updatePagination(totalPages, currentPage) {
     var style = document.createElement('style');
     style.textContent = `
         .pagination a.current-page {
-            border: 1px solid #e1e4e8;
+            border: 1px solid rgba(240, 246, 252, 0.1);
         }
         
         /* 强制覆盖原文件 @media (min-width: 544px) 才激活 display: inline-block 的设定 */
