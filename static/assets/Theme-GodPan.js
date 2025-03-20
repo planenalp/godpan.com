@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         :root {
             --body-bgColor: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
             --SideNav-bgColor: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
-            --btn+SideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 70% */
+            --btnSideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
         }
         /* 暗主题配色 */
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         [data-color-mode=dark][data-dark-theme=dark]::selection {
             --body-bgColor: #21262db3; /* 黑色背景，透明度70% */
             --SideNav-bgColor: #21262dcc; /* 黑色背景，透明度80% */
-            --btn+SideNav-hover-bgColor: #008080b3; /* 高亮颜色 70% */
+            --btnSideNav-hover-bgColor: #008080b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 transparent; /* 添加阴影 */
         }
 
@@ -127,11 +127,6 @@ document.addEventListener('DOMContentLoaded', function() {
             transition: 0.1s;
         }
 
-        /* 分页条 */
-        .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus {
-            border-color: rebeccapurple;
-        }
-
         /* 右上角按钮触碰颜色
         .btn-invisible:hover {
             background-color: var(--btn+SideNav-hover-bgColor);
@@ -176,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 默认亮主题配色 */
         :root {
             --body-bgColor: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
-            --btn+SideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 70% */
+            --btnSideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
         }
         /* 暗主题配色 */
@@ -185,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
         [data-color-mode=dark][data-dark-theme=dark],
         [data-color-mode=dark][data-dark-theme=dark]::selection {
             --body-bgColor: #21262db3; /* 黑色背景，透明度70% */
-            --btn+SideNav-hover-bgColor: #008080b3; /* 高亮颜色 70% */
+            --btnSideNav-hover-bgColor: #008080b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 transparent; /* 添加阴影 */
         }
 
@@ -232,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
         :root {
             --body-bgColor: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
             --SideNav-bgColor: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
-            --btn+SideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 70% */
+            --btnSideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
         }
         /* 暗主题配色 */
@@ -242,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
         [data-color-mode=dark][data-dark-theme=dark]::selection {
             --body-bgColor: #21262db3; /* 黑色背景，透明度70% */
             --SideNav-bgColor: #21262dcc; /* 黑色背景，透明度80% */
-            --btn+SideNav-hover-bgColor: #008080b3; /* 高亮颜色 70% */
+            --btnSideNav-hover-bgColor: #008080b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 transparent; /* 添加阴影 */
         }
         
