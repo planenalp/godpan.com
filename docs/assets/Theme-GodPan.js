@@ -42,6 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         /* avatar尺寸 */
+        /* 若保留原实心旋转 Avatar 效果就用这段替换下面三段的 .avatar 参数
+        .avatar {
+            width: 120px;
+            height: 120px;
+        }
+        若保留原实心旋转 Avatar 效果就用这段替换下面三段的 .avatar 参数 */
         .avatar {
             width: 120px;
             height: 120px;
