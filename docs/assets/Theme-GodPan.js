@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: var(--btn+SideNav-hover-bgColor);
+            background-color: var(--btnSideNav-hover-bgColor);
             transform: scale(1.05);
             box-shadow: var(--box-shadow);
         }
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 右上角按钮触碰颜色
         .btn-invisible:hover {
-            background-color: var(--btn+SideNav-hover-bgColor);
+            background-color: var(--btnSideNav-hover-bgColor);
         }
 
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 右上角按钮触碰颜色 */
         .btn-invisible:hover {
-            background-color: var(--btn+SideNav-hover-bgColor);
+            background-color: var(--btnSideNav-hover-bgColor);
         }
 
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background-color: var(--btn+SideNav-hover-bgColor);
+            background-color: var(--btnSideNav-hover-bgColor);
             transform: scale(1.05);
             box-shadow: var(--box-shadow);
         }
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 右上角按钮触碰颜色 */
         .btn-invisible:hover {
-            background-color: var(--btn+SideNav-hover-bgColor);
+            background-color: var(--btnSideNav-hover-bgColor);
         }
 
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
