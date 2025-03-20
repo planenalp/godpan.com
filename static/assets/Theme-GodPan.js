@@ -46,11 +46,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .avatar {
             width: 120px;
             height: 120px;
-            transition: 0.1s;
-            object-fit: unset;
-            background-color: transparent !important;
+            transition: 0.1s !important; /* 强制指定动画时长 */
+            object-fit: unset !important; /* 强制清除自动缩放 */
+            background-color: transparent !important; /* 强制清除背景颜色 */
             border-radius: unset !important; /* 强制清除圆形框设置 */
-            box-shadow: none !important;
+            box-shadow: none !important; /* 强制清除边框 */
         }
         
         .avatar:hover {
