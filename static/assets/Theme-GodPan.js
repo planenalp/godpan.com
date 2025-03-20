@@ -125,11 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
             background-color: var(--btnSideNav-hover-bgColor);
             transform: scale(1.05);
             box-shadow: var(--box-shadow);
-        }
-
-        /* 弹起动画时长 */
-        .SideNav-item {
-            transition: 0.1s;
+            transition: 0.1s; /* 弹起动画时长 */
         }
 
         /* 右上角按钮触碰颜色 */
