@@ -48,9 +48,9 @@ document.addEventListener('DOMContentLoaded', function() {
             height: 120px;
             transition: 0.1s;
             object-fit: unset;
-            background-color: transparent;
+            background-color: transparent !important;
             border-radius: unset !important; /* 强制清除圆形框设置 */
-            box-shadow: none;
+            box-shadow: none !important;
         }
         
         .avatar:hover {
