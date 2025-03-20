@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             --SideNav-bgColor: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
             --btnSideNav-hover-bgColor: #81d8d0b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+            --avatarURL: url("https://godpan.com/avatarTeal.svg");
         }
         /* 暗主题配色 */
         [data-color-mode=light][data-light-theme=dark],
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             --SideNav-bgColor: #21262dcc; /* 黑色背景，透明度80% */
             --btnSideNav-hover-bgColor: #008080b3; /* 高亮颜色 70% */
             --box-shadow: 0 0 transparent; /* 添加阴影 */
+            --avatarURL: url("https://godpan.com/avatarWhite.svg");
         }
 
         /* 背景图 */
@@ -60,7 +62,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         /* avatar尺寸 */
-        /* 若保留圆形实心旋转 Avatar 效果就仅保留 .avatar 及 width + height 参数，其余参数和 .avatar:hover 和 .avatar:active 删除 */
+        /* 若保留圆形实心旋转 Avatar 效果就仅保留 .avatar 及 width + height 参数，其余参数和 #avatarImg 和 .avatar:hover 和 .avatar:active 删除 */
+        #avatarImg {
+            content: var(--avatarURL) !important;
+        }
         .avatar {
             width: 120px;
             height: 120px;
