@@ -1,11 +1,10 @@
 {
     "title":"GodPan",
     "subTitle":"You've entered a knowledge wasteland.",
-    
+    "avatarUrl":"https://godpan.com/favicon.svg",
     "GMEEK_VERSION":"last",
     "displayTitle":"GodPan",
     "homeUrl":"https://godpan.com",
-    
     "filingNum":"<a href='https://icp.gov.moe/?keyword=20256969' target='_blank'>萌ICP备20256969号</a>",
     "singlePage":["link","about"],
     "commentLabelColor":"#81D8D0",
